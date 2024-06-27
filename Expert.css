@@ -1,0 +1,118 @@
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    height: 80px;
+}
+a{
+    color: white;
+}
+.nav ul li{
+    display: inline;
+    padding: 20px;
+    font-size: small;
+}
+span{
+            color: orangered;
+        }
+a:hover{
+    color: brown;
+}
+span{
+    color: orangered;
+}
+.h1{
+    text-align: center;
+}
+.trainersclass{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+img{
+    height: 400px;
+    width: 300px;
+}
+.img1, .img2 , .img3{
+    padding: 10px;
+}
+.footer{
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    border-top: 1px solid wheat;
+ }
+ .footer h1{
+    color: orangered;
+ }
+ .list{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.list ul li{
+     list-style-type: none;
+
+ }
+
+ @media screen and (max-width:750px){
+    .nav{
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        align-items: center;
+        height: 80px;
+    }
+    a{
+        color: white;
+    }
+    .nav ul li{
+        display: inline;
+        padding: 20px;
+        font-size: small;
+    }
+    span{
+                color: orangered;
+            }
+    a:hover{
+        color: brown;
+    }
+    span{
+        color: orangered;
+    }
+    .h1{
+        text-align: center;
+    }
+    .trainersclass{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: black;
+        color: white;
+        flex-wrap: wrap;
+    }
+    img{
+        height: 400px;
+        width: 300px;
+    }
+    .img1, .img2 , .img3{
+        padding: 10px;
+    }
+    .footer{
+        background-color: black;
+        height: 280px;
+        width: 100%;
+        border-top: 1px solid wheat;
+     }
+     .footer h1{
+        color: orangered;
+     }
+     .list{
+        display: flex;
+        justify-content: space-around;
+        color: white;
+     }
+ }

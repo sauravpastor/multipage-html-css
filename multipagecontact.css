@@ -1,0 +1,157 @@
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    height: 80px;
+}
+a{
+    color: white;
+}
+.nav ul li{
+    display: inline;
+    padding: 20px;
+    font-size: small;
+}
+span{
+            color: orangered;
+        }
+.form{
+    text-align: center;
+    margin-left: 250px;
+    border: 1px solid;
+    height: 400px;
+    width: 700px;
+    padding: 50px;
+   background-color: rgb(114, 110, 110);
+}
+.input1 input{
+   width: 250px;
+   height: 30px;
+   margin: 20px;
+}
+.input2 input{
+   width: 550px;
+   height: 30px;
+}
+.input3 input{
+   width: 550px;
+   height: 200px;
+}
+button{
+    margin-right: 425px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: orangered;
+    color: white;
+}
+a:hover{
+    color: brown;
+}
+h2{
+    color: orangered;
+    font-size: small;
+}
+.forimg{
+    background-image: url(images/istockphotogym2.jpg);
+    background-size: cover;
+}
+.footer{
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    border-top: 1px solid wheat;
+ }
+ .footer h1{
+    color: orangered;
+ }
+ .list{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+ }
+ .list ul li{
+    list-style-type: none;
+ }
+
+ @media screen and (max-width:750px){
+    .nav{
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        align-items: center;
+        height: 80px;
+
+    }
+    a{
+        color: white;
+    }
+    .nav ul li{
+        display: inline;
+        padding: 20px;
+        font-size: small;
+    }
+
+    
+    span{
+                color: orangered;
+            }
+    .form{
+        text-align: center;
+        margin-left: -1px;
+        border: 1px solid;
+        height: 400px;
+        width: 330px;
+        padding: 40px;
+       background-color: rgb(114, 110, 110);
+       flex-wrap: wrap;
+    }
+    .input1 input{
+       margin: 20px;
+       text-align: center;
+    }
+    .input2 input{
+       width: 300px;
+       height: 30px;
+       text-align: center;
+    }
+    .input3 input{
+       width: 300px;
+       height: 100px;
+       text-align: center;
+    }
+    button{
+        margin-right: 425px;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: orangered;
+        color: white;
+    }
+    a:hover{
+        color: brown;
+    }
+    h2{
+        color: orangered;
+        font-size: small;
+    }
+    .forimg{
+        background-image: url(images/istockphotogym2.jpg);
+        background-size: cover;
+    }
+    .footer{
+        background-color: black;
+        height: 280px;
+        width: 100%;
+        border-top: 1px solid wheat;
+     }
+     .footer h1{
+        color: orangered;
+     }
+     .list{
+        display: flex;
+        justify-content: space-around;
+        color: white;
+     }
+ }
